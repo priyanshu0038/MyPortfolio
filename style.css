@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar{
+  background-color: black;
+  position:fixed;
+  width: 100%;
+  padding: 25px 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar .logo{
+  font-size: 25px;
+  font-weight: 700;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  list-style: none;
+  margin-left: 35px; ;
+}
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: 500;
+  transition-duration: .5s;
+}
+.navbar ul li a:hover,.active{
+  color: yellow;
+}
+.home{
+  display: flex;
+  align-items: center;
+  margin-left:150px ;
+  height: 100vh;
+  padding: 60pz 9% 0;
+  color: #fff;
+  filter: drop-shadow(0 0 20px #fff);
+}
+.home-info h1{
+  font-size: 55px;
+
+}
+
+.home-info p{
+  font-size: 16px;
+  margin: 10px 0 25px;
+}
+.home-info .btn-sci{
+  display: flex;
+  align-items: center;
+}
+.name{
+  color: yellow;
+}
+.container {
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(30) forwards, blink 0.75s infinite;
+}
+.intro{
+    font-size: 50px;
+    color: yellow;
+  }
+@keyframes typing {
+    from { width: 0; }
+    to { width: 85ch; } 
+  }
+.home-info h2{
+  font-size: 50px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient( #4ecdc4 30%, #000 70%);
+  background-size: 200% 200%;
+}
+.about{
+  position: absolute;
+  top: 350px;
+  color: aliceblue;
+  filter: drop-shadow(0 0 50px black);
+
+}
+.about h1 {
+ margin-left: 680px;
+ margin-top: 650px;
+ font-size: 80px;
+ color: yellow;
+ 
+}
+.about pre{
+ margin-left: 233px;
+ margin-top: 733px;
+ font-size: 30px;
+ position: absolute;
+ top: 40px;
+ text-align: center;
+
+}
+.about pre a{
+ color: yellow;
+ filter: drop-shadow(0 0 20px yellow)
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
